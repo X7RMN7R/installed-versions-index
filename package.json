@@ -1,0 +1,14 @@
+{
+  "author": "YV",
+  "name": "installed-versions-index",
+  "version": "0.0.0",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/X7RMN7R/installed-versions-index.git"
+  },
+  "homepage": "https://github.com/X7RMN7R/installed-versions-index",
+  "dependencies": {
+    "chart.js": "^2.6.0"
+  }
+}

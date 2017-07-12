@@ -1,0 +1,2429 @@
+{
+    "server": [
+        {
+            "name": "chaucer-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.12",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.10",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "chaucer-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.12",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.10",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "colorado-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.13.9",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.4-SNAPSHOT",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.3",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.16",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.15.32",
+                    "name": "workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "colorado-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.13.9",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.5",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.3",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.16",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.15.32",
+                    "name": "workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "crudette-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.20.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.3",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "3.6.15",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "gastr-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.13.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.3",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.3",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.16.14",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.15.16",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.5.23",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "lesieur-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.13.7",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.1",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.1",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.10",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.13.3",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.18.23",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "lesieur-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.13.7",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.2",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.1",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.1",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.2",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.4",
+                    "name": "krakn-adapter-movex"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.10",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.13.3",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.18.10",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "miecalin-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.20.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.1",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.9",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "mixbuffe-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.12",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.7",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "mixbuffe-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.13",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.10",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "ponroy-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.12",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.10",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "primel-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.6.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.1",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "3.6.15",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "qsupplychain1",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.10.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.27.0",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "qsupplychain2",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "master-SNAPSHOT",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "qvifweb1",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.35.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.3-SNAPSHOT",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.27.0",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.35.1-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "qvifweb1test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.17.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.21.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.21.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.21.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.21.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.21.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.2",
+                    "name": "krakn-adapter-movex"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.15.6",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.17.15-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "qvifweb2",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.35.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.3-SNAPSHOT",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.35.1-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "qworkshop1",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.36.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.40.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.36.0",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.0",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.40.0-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "qworkshop2",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.36.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.40.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.36.0",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.0",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.40.0-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "raynal-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "pas besoin",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.5",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.6",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "raynal-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.5",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.6",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "regilait-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.10",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.18.7",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.7",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "regilait-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.10",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.18.4",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.7",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "umaven",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.10.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.13.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.12.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.13.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.12.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.13.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.12.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.12.4",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.5.29",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "stalaven-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.12",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.2",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.10",
+                    "name": "workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "stalaven-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.12",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.2",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.10",
+                    "name": "workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "stjean-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.1",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.8",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.18.7",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.12",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "stjean-test",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.1",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.8",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.18.7",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.12",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "upyrat",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.2.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.9.0-SNAPSHOT",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.0.4",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.8.0-SNAPSHOT",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.7",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.3.7-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "usupplychain",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.26.1",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.34.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "master-SNAPSHOT",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "uvifweb1",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0-SNAPSHOT",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.31.0-SNAPSHOT",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.31.0-SNAPSHOT",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.17.5",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.3-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "uvifweb2",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.24.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.1-SNAPSHOT",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.18.1",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "operation-1.0.0-SNAPSHOT",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "uworkshop",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.18.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.0.4",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.3.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.3.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.3.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.3.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.3.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.2.0",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.1",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "4.1.6-SNAPSHOT",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "uvifhub",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.13.6",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.1",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.1",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.20.6",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.13.3",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.18.7-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "vifhoneypot",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.2",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.1",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.6",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.1",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.31.7",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "vif-vifweb-support",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.2.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.0.4",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.8.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.8.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.8.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.8.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.8.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.6.3",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "3.7.15",
+                    "name": "workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.7.4",
+                    "name": "supplychain"
+                }
+            ]
+        },
+        {
+            "name": "vifsupplychain-demo",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.20.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0-SNAPSHOT",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.30.1",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.19.8",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "3.6.15",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "vifworkshop-demo2",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.21.0",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.25.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.11",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.18.4",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.6-quality",
+                    "name": "workshop"
+                }
+            ]
+        },
+        {
+            "name": "bcg-prod",
+            "deployments": [
+                {
+                    "buildAt": "",
+                    "version": "4.19.3",
+                    "name": "admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-admin"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.0",
+                    "name": "krakn-adapter-seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-supply"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.23.0",
+                    "name": "krakn-adapter-vif57"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.0",
+                    "name": "krakn-adapter-workshop"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.22.0",
+                    "name": "krakn-adapter-forecast"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.5.0",
+                    "name": "pyrat_client"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.32.10",
+                    "name": "seadog"
+                },
+                {
+                    "buildAt": "",
+                    "version": "1.11.9",
+                    "name": "supplychain"
+                },
+                {
+                    "buildAt": "",
+                    "version": "5.34.6",
+                    "name": "workshop"
+                }
+            ]
+        }
+    ]
+}

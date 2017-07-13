@@ -6,13 +6,11 @@ var request = require('request');
 var getData = require('./src/get-data');
 var buildChart = require('./src/build-chart');
 
-getData.perform().then((info) => {
-  console.log(info);
-
-  var chartData = buildChart.buildData();
+getData.perform().then((versions) => {
+  var chartData = buildChart.buildData(versions);
   var chartOptions = buildChart.buildOptions();
 
-  console.log('Lancement du serveur');
+  console.log('Server started');
   http.createServer((req, res) => {
     fs.readFile('index.html', 'utf-8', (err, data) => {
       res.writeHead(200, {'Content-Type': 'text/html'});

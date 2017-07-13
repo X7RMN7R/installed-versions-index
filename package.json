@@ -9,6 +9,7 @@
   },
   "homepage": "https://github.com/X7RMN7R/installed-versions-index",
   "dependencies": {
-    "chart.js": "^2.6.0"
+    "chart.js": "^2.6.0",
+    "request": "^2.81.0"
   }
 }

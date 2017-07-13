@@ -4,31 +4,22 @@
     <title>WORKSHOP IVI</title>
     <meta charset="utf-8" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-    <style>
-    </style>
 </head>
 <body>
-    <canvas id="myChart"></canvas>
-    <script>
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctx, {
-    // The type of chart we want to create
-    type: 'line',
+  <div class="chart-container" style="width: 80%; height: 480px; margin: 0 auto;">
+      <div class="doughnut-chart-container" style="height: 480px; width: 480px; float: left;">
+          <canvas id="myChart"></canvas>
+      </div>
+  </div>
 
-    // The data for our dataset
-    data: {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
-        datasets: [{
-            label: "My First dataset",
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: {{chartData}},
-        }]
-    },
+  <script>
+  var ctx = document.getElementById('myChart').getContext('2d');
 
-    // Configuration options go here
-    options: {}
-    });
-    </script>
+  var myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {{data}},
+    options: {{options}}
+  });
+  </script>
 </body>
 </html>

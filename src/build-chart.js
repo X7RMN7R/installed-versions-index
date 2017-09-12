@@ -5,13 +5,16 @@ var _ = require('lodash');
 exports.buildData = (versions) => {
   const workshopEnvs = [
     'chaucer-prod',
+    'colorado-prod',
+    'lactinov-prod',
     'lesieur-prod',
     'mixbuffe-prod',
     'ponroy-prod',
     'regilait-prod',
     'stalaven-prod',
     'stjean-prod',
-    'bcg-prod'
+    'bcg-prod',
+    'ppaulet-prod'
   ];
 
   var selectedEnvVersions = _(versions.server)

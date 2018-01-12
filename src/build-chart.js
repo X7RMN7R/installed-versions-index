@@ -3,31 +3,10 @@
 var _ = require('lodash');
 
 exports.buildData = (versions) => {
-  const workshopEnvs = [
-    'chaucer-prod',
-    'colorado-prod',
-    'lactinov-prod',
-    'lesieur-prod',
-    'mixbuffe-prod',
-    'ponroy-prod',
-    'regilait-prod',
-    'stalaven-prod',
-    'stjean-prod',
-    'bcg-prod',
-    'ppaulet-prod'
-  ];
-
-  var selectedEnvVersions = _(versions.server)
-    .keyBy('name')
-    .at(workshopEnvs)
-    .value();
-
-  var countByVersion = _(selectedEnvVersions)
-    .countBy(envVersion => {
-       var workshopVersion = _.find(envVersion.deployments, {'name': 'workshop'}).version.split('.');
-       return workshopVersion[0] + '.' + workshopVersion[1];
-    })
-    .value();
+  var countByVersion = _(versions).countBy(
+    version => {
+      return version.num;
+    }).value();
   console.log(countByVersion);
 
   return {

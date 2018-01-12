@@ -11,6 +11,7 @@
   "dependencies": {
     "chart.js": "^2.6.0",
     "lodash": "^4.17.4",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "requirefrom": "0.2.0"
   }
 }

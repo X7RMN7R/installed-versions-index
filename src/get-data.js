@@ -13,20 +13,21 @@ exports.perform = function() {
     try {
       console.log(`Récupération des versions`);
       var versions = [
-        {'name' : 'bcg', 'server' : 'bcg'},
-        {'name' : 'cemoi', 'server' : 'cemoi'},
-        {'name' : 'chaucer', 'server' : 'chaucer'},
-        {'name' : 'colorado', 'server' : 'colorado'},
-        {'name' : 'lactinov', 'server' : 'lactinov'},
-        {'name' : 'lesieur', 'server' : 'lesieur-gds'},
-        {'name' : 'mixbuffe', 'server' : 'mixbuffe'},
-        {'name' : 'ponroy', 'server' : 'ponroy'},
-        {'name' : 'ppaulet', 'server' : 'ppaulet'},
-        {'name' : 'regilait', 'server' : 'regilait'},
-	{'name' : 'soufflet', 'server' : 'soufflet'},
-        {'name' : 'stalaven', 'server' : 'stalaven'},
-        {'name' : 'stjean', 'server' : 'stjean'},
-	{'name' : 'sva34p', 'server' : 'sva34p-tai'} 
+        {'name' : 'bcg', 'server' : 'bcg-prod'},
+        {'name' : 'cemoi', 'server' : 'cemoi-prod'},
+        {'name' : 'chaucer', 'server' : 'chaucer-prod'},
+        {'name' : 'colorado', 'server' : 'colorado-prod'},
+        {'name' : 'lactinov', 'server' : 'lactinov-prod'},
+        {'name' : 'lesieur', 'server' : 'lesieur-gds-prod'},
+	{'name' : 'miecalin', 'server' : 'miecalin-prod.cheops'},
+        {'name' : 'mixbuffe', 'server' : 'mixbuffe-prod'},
+        {'name' : 'ponroy', 'server' : 'ponroy-prod'},
+        {'name' : 'ppaulet', 'server' : 'ppaulet-prod'},
+        {'name' : 'regilait', 'server' : 'regilait-prod'},
+	{'name' : 'soufflet', 'server' : 'soufflet-prod'},
+        {'name' : 'stalaven', 'server' : 'stalaven-prod'},
+        {'name' : 'stjean', 'server' : 'stjean-prod'},
+	{'name' : 'sva34p', 'server' : 'sva34p-tai-prod'} 
       ];
 
       if (!fs.existsSync('.tmp/inventory')) {
@@ -37,7 +38,7 @@ exports.perform = function() {
       }
 
       _(versions).forEach(version => {
-        var inventory = fs.readFileSync(`.tmp/inventory/clients/` + version.name + `/` + version.server + `-prod`, 'utf-8');
+        var inventory = fs.readFileSync(`.tmp/inventory/clients/` + version.name + `/` + version.server, 'utf-8');
         
         const workshopRegex = new RegExp('.*.*.*workshop_version_to_deploy=(\\S*).*', 'g');
         const workshopVersion = workshopRegex.exec(inventory)[1];

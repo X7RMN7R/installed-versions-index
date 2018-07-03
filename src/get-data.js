@@ -19,15 +19,16 @@ exports.perform = function() {
         {'name' : 'colorado', 'server' : 'colorado-prod'},
         {'name' : 'lactinov', 'server' : 'lactinov-prod'},
         {'name' : 'lesieur', 'server' : 'lesieur-gds-prod'},
-	{'name' : 'miecalin', 'server' : 'miecalin-prod.cheops'},
+        {'name' : 'meralli', 'server' : 'meralli-prod'},
+	      {'name' : 'miecalin', 'server' : 'miecalin-prod.cheops'},
         {'name' : 'mixbuffe', 'server' : 'mixbuffe-prod'},
         {'name' : 'ponroy', 'server' : 'ponroy-prod'},
         {'name' : 'ppaulet', 'server' : 'ppaulet-prod'},
         {'name' : 'regilait', 'server' : 'regilait-prod'},
-	{'name' : 'soufflet', 'server' : 'soufflet-prod'},
+	      {'name' : 'soufflet', 'server' : 'soufflet-prod'},
         {'name' : 'stalaven', 'server' : 'stalaven-prod'},
         {'name' : 'stjean', 'server' : 'stjean-prod'},
-	{'name' : 'sva34p', 'server' : 'sva34p-tai-prod'} 
+	      {'name' : 'sva34p', 'server' : 'sva34p-tai-prod'}
       ];
 
       if (!fs.existsSync('.tmp/inventory')) {
@@ -39,13 +40,13 @@ exports.perform = function() {
 
       _(versions).forEach(version => {
         var inventory = fs.readFileSync(`.tmp/inventory/clients/` + version.name + `/` + version.server, 'utf-8');
-        
+
         const workshopRegex = new RegExp('.*.*.*workshop_version_to_deploy=(\\S*).*', 'g');
         const workshopVersion = workshopRegex.exec(inventory)[1];
-        
+
         version.num = workshopVersion.substr(0, workshopVersion.lastIndexOf("."));
       });
-      
+
       console.log(versions);
 
       resolve(versions);

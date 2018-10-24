@@ -13,10 +13,12 @@ exports.perform = function() {
     try {
       console.log(`Récupération des versions`);
       var versions = [
+        {'name' : 'alsacel', 'server' : 'alsacel-prod'},
         {'name' : 'bcg', 'server' : 'bcg-prod'},
         {'name' : 'cemoi', 'server' : 'cemoi-prod'},
         {'name' : 'chaucer', 'server' : 'chaucer-prod'},
         {'name' : 'colorado', 'server' : 'colorado-prod'},
+        {'name' : 'eastbalt', 'server' : 'eastbalt-prod'},
         {'name' : 'lactinov', 'server' : 'lactinov-prod'},
         {'name' : 'lesieur', 'server' : 'lesieur-gds-prod'},
         {'name' : 'meralli', 'server' : 'meralli-prod'},
@@ -44,6 +46,7 @@ exports.perform = function() {
         const workshopRegex = new RegExp('.*.*.*workshop_version_to_deploy=(\\S*).*', 'g');
         const workshopVersion = workshopRegex.exec(inventory)[1];
 
+        version.workshopVersion = workshopVersion;
         version.num = workshopVersion.substr(0, workshopVersion.lastIndexOf("."));
       });
 

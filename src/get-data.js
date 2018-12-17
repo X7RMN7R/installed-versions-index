@@ -52,6 +52,9 @@ exports.perform = function() {
 
       console.log(versions);
 
+      const allVersions = _.sortedUniqBy(_.map(versions, 'workshopVersion').sort());
+      console.log(allVersions.length + ` different versions (` + allVersions + `)`);
+
       resolve(versions);
 
     } catch (err) {

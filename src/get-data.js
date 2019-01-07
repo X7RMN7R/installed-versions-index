@@ -15,9 +15,12 @@ exports.perform = function() {
       var versions = [
         {'name' : 'alsacel', 'server' : 'alsacel-prod'},
         {'name' : 'bcg', 'server' : 'bcg-prod'},
+        {'name' : 'biomerie', 'server' : 'biomerie-prod'},
         {'name' : 'cemoi', 'server' : 'cemoi-prod'},
+        {'name' : 'champign', 'server' : 'champign-prod'},
         {'name' : 'chaucer', 'server' : 'chaucer-prod'},
         {'name' : 'colorado', 'server' : 'colorado-prod'},
+        {'name' : 'config', 'server' : 'config-prod'},
         {'name' : 'eastbalt', 'server' : 'eastbalt-prod'},
         {'name' : 'lactinov', 'server' : 'lactinov-prod'},
         {'name' : 'lesieur', 'server' : 'lesieur-gds-prod'},
